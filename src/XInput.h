@@ -47,8 +47,8 @@ enum XInputControl : uint8_t {
 	DPAD_RIGHT = 14,
 	TRIGGER_LEFT = 15,
 	TRIGGER_RIGHT = 16,
-	JOY_LEFT,
-	JOY_RIGHT,
+	JOY_LEFT = 17,
+	JOY_RIGHT = 18,
 };
 
 enum class XInputReceiveType : uint8_t {
